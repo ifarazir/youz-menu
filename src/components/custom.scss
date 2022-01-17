@@ -1,0 +1,37 @@
+.cat-box {
+    font-weight: normal;
+    font-size: 14px;
+    width: max-content;
+    max-width: max-content;
+
+    & > div {
+        width: max-content;
+    }
+
+    .img-fluid {
+        width: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+.mobile-cat {
+    .cat-box {
+        margin: 0 10px;
+    }
+}
+
+.food-box {
+    h2 {
+        vertical-align: middle;
+        .img-fluid {
+            width: 48px;
+            margin-left: 10px;
+        }
+    }
+    h3 {
+        color: #231f20;
+    }
+    p {
+        font-size: 14px;
+    }
+}

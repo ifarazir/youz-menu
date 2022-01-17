@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Boostrap 5 Sass Starter`,
-    description: `A simple bootstrap 5 and Sass starter for Gatsby. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@r-ichard`,
+    title: `یوز کلاب`,
+    description: `منو دیجیتال بوفه یوز کلاب`,
+    author: `ifarazir`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -30,8 +30,8 @@ module.exports = {
         name: `gatsby-starter-bootstrap-5`,
         short_name: `gb5-starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `rgb(189, 148, 3)`,
+        theme_color: `rgb(189, 148, 3)`,
         display: `standalone`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
